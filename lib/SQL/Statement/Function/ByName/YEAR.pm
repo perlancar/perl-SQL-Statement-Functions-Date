@@ -17,6 +17,8 @@ sub YEAR {
 1;
 # ABSTRACT: YEAR() SQL function
 
+=for Pod::Coverage .+
+
 =head1 DESCRIPTION
 
 Implements YEAR() SQL function. Syntax:

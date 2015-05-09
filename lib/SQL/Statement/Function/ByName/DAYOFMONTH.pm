@@ -17,6 +17,8 @@ sub DAYOFMONTH {
 1;
 # ABSTRACT: DAYOFMONTH() SQL function
 
+=for Pod::Coverage .+
+
 =head1 DESCRIPTION
 
 Implements DAYOFMONTH() SQL function. Syntax:

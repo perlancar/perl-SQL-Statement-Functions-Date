@@ -17,6 +17,8 @@ sub MONTH {
 1;
 # ABSTRACT: MONTH() SQL function
 
+=for Pod::Coverage .+
+
 =head1 DESCRIPTION
 
 Implements MONTH() SQL function. Syntax:

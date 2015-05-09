@@ -18,6 +18,8 @@ sub DAYOFYEAR {
 1;
 # ABSTRACT: DAYOFYEAR() SQL function
 
+=for Pod::Coverage .+
+
 =head1 DESCRIPTION
 
 Implements DAYOFYEAR() SQL function. Syntax:

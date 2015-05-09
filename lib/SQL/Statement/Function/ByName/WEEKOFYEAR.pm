@@ -19,6 +19,8 @@ sub WEEKOFYEAR {
 1;
 # ABSTRACT: WEEKOFYEAR() SQL function
 
+=for Pod::Coverage .+
+
 =head1 DESCRIPTION
 
 Implements WEEKOFYEAR() SQL function. Syntax:

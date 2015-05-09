@@ -16,6 +16,8 @@ sub DAY {
 1;
 # ABSTRACT: DAY() SQL function
 
+=for Pod::Coverage .+
+
 =head1 DESCRIPTION
 
 Implements DAY() SQL function. It is synonym for DAYOFMONTH().

@@ -18,6 +18,8 @@ sub WEEKDAY {
 1;
 # ABSTRACT: WEEKDAY() SQL function
 
+=for Pod::Coverage .+
+
 =head1 DESCRIPTION
 
 Implements WEEKDAY() SQL function. Syntax:
