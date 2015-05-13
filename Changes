@@ -1,5 +1,12 @@
 Revision history for SQL-Statement-Functions-Date
 
+0.02    2015-05-13 (PERLANCAR)
+
+	- [Incompatible change] Prefix each function with SQL_FUNCTION_ so
+	  they can be loaded using 'LOAD Module::Name' and less conflict
+	  with perl function names.
+
+
 0.01    2015-05-09 (PERLANCAR)
 
         - First release.
