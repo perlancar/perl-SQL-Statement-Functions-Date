@@ -7,7 +7,7 @@ use 5.010001;
 use strict;
 use warnings;
 
-sub MONTH {
+sub SQL_FUNCTION_MONTH {
     my $param = $_[2];
 
     $param =~ /^\d{4}-(\d{2})-/ or return undef;

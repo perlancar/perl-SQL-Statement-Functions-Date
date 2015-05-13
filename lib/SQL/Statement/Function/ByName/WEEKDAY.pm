@@ -9,7 +9,7 @@ use warnings;
 
 use Date::Calc qw(Day_of_Week);
 
-sub WEEKDAY {
+sub SQL_FUNCTION_WEEKDAY {
     my $param = $_[2];
     $param =~ /\A(\d{4})-(\d{2})-(\d{2})/ or return undef;
     Day_of_Week($1, $2, $3) - 1;

@@ -9,9 +9,7 @@ use warnings;
 
 use SQL::Statement::Function::ByName::DAYOFMONTH;
 
-sub DAY {
-    goto &SQL::Statement::Function::ByName::DAYOFMONTH::DAYOFMONTH;
-}
+*SQL_FUNCTION_DAY = \&SQL::Statement::Function::ByName::DAYOFMONTH::SQL_FUNCTION_DAYOFMONTH;
 
 1;
 # ABSTRACT: DAY() SQL function

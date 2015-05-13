@@ -7,7 +7,7 @@ use 5.010001;
 use strict;
 use warnings;
 
-sub YEAR {
+sub SQL_FUNCTION_YEAR {
     my $param = $_[2];
 
     $param =~ /^(\d{4})-/ or return undef;

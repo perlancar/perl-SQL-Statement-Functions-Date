@@ -11,7 +11,7 @@ sub get_func {
 
     my $name = shift;
     require "SQL/Statement/Function/ByName/$name.pm";
-    \&{"SQL::Statement::Function::ByName::$name\::$name"};
+    \&{"SQL::Statement::Function::ByName::$name\::SQL_FUNCTION_$name"};
 }
 
 subtest YEAR => sub {

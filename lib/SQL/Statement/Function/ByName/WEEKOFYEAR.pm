@@ -9,7 +9,7 @@ use warnings;
 
 use Date::Calc qw(Week_of_Year);
 
-sub WEEKOFYEAR {
+sub SQL_FUNCTION_WEEKOFYEAR {
     my $param = $_[2];
     $param =~ /\A(\d{4})-(\d{2})-(\d{2})/ or return undef;
     my ($woyear, $year) = Week_of_Year($1, $2, $3);
