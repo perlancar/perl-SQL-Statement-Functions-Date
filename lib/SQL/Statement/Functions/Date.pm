@@ -24,7 +24,7 @@ They are based on MySQL's version. More functions wil be added as needed.
 To use a function from Perl script:
 
  require SQL::Statement::Function::ByName::YEAR;
- $dbh->do(qq{CREATE FUNCTION YEAR NAME "SQL::Statement::Function::ByName::YEAR::YEAR"});
+ $dbh->do(qq{CREATE FUNCTION YEAR NAME "SQL::Statement::Function::ByName::YEAR::SQL_FUNCTION_YEAR"});
 
 To use a function from L<fsql>:
 
