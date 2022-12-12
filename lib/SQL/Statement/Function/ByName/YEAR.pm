@@ -17,7 +17,7 @@ sub SQL_FUNCTION_YEAR {
 }
 
 1;
-# ABSTRACT: YEAR() SQL function
+# ABSTRACT: Return the year part from a date/datetime expression
 
 =for Pod::Coverage .+
 

@@ -17,7 +17,7 @@ sub SQL_FUNCTION_DAYOFMONTH {
 }
 
 1;
-# ABSTRACT: DAYOFMONTH() SQL function
+# ABSTRACT: Return day of month of a date/datetime expression
 
 =for Pod::Coverage .+
 

@@ -18,7 +18,7 @@ sub SQL_FUNCTION_DAYOFYEAR {
 }
 
 1;
-# ABSTRACT: DAYOFYEAR() SQL function
+# ABSTRACT: Return day of year of a date/datetime expression
 
 =for Pod::Coverage .+
 

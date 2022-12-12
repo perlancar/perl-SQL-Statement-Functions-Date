@@ -19,7 +19,7 @@ sub SQL_FUNCTION_WEEKOFYEAR {
 }
 
 1;
-# ABSTRACT: WEEKOFYEAR() SQL function
+# ABSTRACT: Return week of the year from a date/datetime expression
 
 =for Pod::Coverage .+
 

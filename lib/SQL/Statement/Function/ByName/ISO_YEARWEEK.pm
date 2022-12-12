@@ -19,13 +19,13 @@ sub SQL_FUNCTION_ISO_YEARWEEK {
 }
 
 1;
-# ABSTRACT: ISO_YEARWEEK() SQL function
+# ABSTRACT: Return ISO 8601 YYYY-"W"ww (e.g. 2022-W51) of a date/datetime expression
 
 =for Pod::Coverage .+
 
 =head1 DESCRIPTION
 
-Given a date in YYYY-mm-dd format, will return the ISO 8601 YYYY-Www format.
+Given a date in YYYY-mm-dd format, will return the ISO 8601 YYYY-"W"ww format.
 Example:
 
  ISO_YEARWEEK('2016-01-01')  -- 2015W53

@@ -14,7 +14,7 @@ use SQL::Statement::Function::ByName::DAYOFMONTH;
 *SQL_FUNCTION_DAY = \&SQL::Statement::Function::ByName::DAYOFMONTH::SQL_FUNCTION_DAYOFMONTH;
 
 1;
-# ABSTRACT: DAY() SQL function
+# ABSTRACT: Synonym for DAYOFMONTH() SQL function
 
 =for Pod::Coverage .+
 

@@ -17,7 +17,7 @@ sub SQL_FUNCTION_MONTH {
 }
 
 1;
-# ABSTRACT: MONTH() SQL function
+# ABSTRACT: Return the month part of a date/datetime expression
 
 =for Pod::Coverage .+
 

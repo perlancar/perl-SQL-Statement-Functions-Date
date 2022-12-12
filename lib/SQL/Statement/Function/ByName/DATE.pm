@@ -17,7 +17,7 @@ sub SQL_FUNCTION_DATE {
 }
 
 1;
-# ABSTRACT: DATE() SQL function
+# ABSTRACT: Return the date part (e.g. 2022-12-13) of a date/datetime expression
 
 =for Pod::Coverage .+
 
