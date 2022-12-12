@@ -1,13 +1,15 @@
 package SQL::Statement::Function::ByName::DAYOFYEAR;
 
-# DATE
-# VERSION
-
 use 5.010001;
 use strict;
 use warnings;
 
 use Date::Calc qw(Day_of_Year);
+
+# AUTHORITY
+# DATE
+# DIST
+# VERSION
 
 sub SQL_FUNCTION_DAYOFYEAR {
     my $param = $_[2];

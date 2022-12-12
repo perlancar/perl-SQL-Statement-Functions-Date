@@ -1,11 +1,13 @@
 package SQL::Statement::Function::ByName::DAYOFMONTH;
 
-# DATE
-# VERSION
-
 use 5.010001;
 use strict;
 use warnings;
+
+# AUTHORITY
+# DATE
+# DIST
+# VERSION
 
 sub SQL_FUNCTION_DAYOFMONTH {
     my $param = $_[2];

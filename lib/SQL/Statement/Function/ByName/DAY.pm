@@ -1,13 +1,15 @@
 package SQL::Statement::Function::ByName::DAY;
 
-# DATE
-# VERSION
-
 use 5.010001;
 use strict;
 use warnings;
 
 use SQL::Statement::Function::ByName::DAYOFMONTH;
+
+# AUTHORITY
+# DATE
+# DIST
+# VERSION
 
 *SQL_FUNCTION_DAY = \&SQL::Statement::Function::ByName::DAYOFMONTH::SQL_FUNCTION_DAYOFMONTH;
 

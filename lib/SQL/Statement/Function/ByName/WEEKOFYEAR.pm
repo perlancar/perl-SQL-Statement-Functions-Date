@@ -1,13 +1,15 @@
 package SQL::Statement::Function::ByName::WEEKOFYEAR;
 
-# DATE
-# VERSION
-
 use 5.010001;
 use strict;
 use warnings;
 
 use Date::Calc qw(Week_of_Year);
+
+# AUTHORITY
+# DATE
+# DIST
+# VERSION
 
 sub SQL_FUNCTION_WEEKOFYEAR {
     my $param = $_[2];

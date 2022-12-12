@@ -1,6 +1,10 @@
 package SQL::Statement::Functions::Date;
 
+use strict;
+
+# AUTHORITY
 # DATE
+# DIST
 # VERSION
 
 1;

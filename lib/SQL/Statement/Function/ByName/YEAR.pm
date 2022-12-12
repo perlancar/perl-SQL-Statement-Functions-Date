@@ -1,11 +1,13 @@
 package SQL::Statement::Function::ByName::YEAR;
 
-# DATE
-# VERSION
-
 use 5.010001;
 use strict;
 use warnings;
+
+# AUTHORITY
+# DATE
+# DIST
+# VERSION
 
 sub SQL_FUNCTION_YEAR {
     my $param = $_[2];

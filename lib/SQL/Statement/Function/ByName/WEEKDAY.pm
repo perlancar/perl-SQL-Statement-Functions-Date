@@ -1,13 +1,15 @@
 package SQL::Statement::Function::ByName::WEEKDAY;
 
-# DATE
-# VERSION
-
 use 5.010001;
 use strict;
 use warnings;
 
 use Date::Calc qw(Day_of_Week);
+
+# AUTHORITY
+# DATE
+# DIST
+# VERSION
 
 sub SQL_FUNCTION_WEEKDAY {
     my $param = $_[2];
